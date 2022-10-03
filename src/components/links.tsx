@@ -23,10 +23,10 @@ const contacts = [
   },
 ]
 
-export default function Footer() {
+export default function Links() {
   return (
     <>
-      <footer>
+      <div>
         <div className={contactStyles.links}>
           {contacts.map(({ Comp, link, alt }) => {
             return (
@@ -36,7 +36,7 @@ export default function Footer() {
             )
           })}
         </div>
-      </footer>
+      </div>
     </>
   )
 }

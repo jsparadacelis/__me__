@@ -1,6 +1,9 @@
+import Header from '../components/header'
+import ExtLink from '../components/ext-link'
+
+import sharedStyles from '../styles/shared.module.css'
 import contactStyles from '../styles/contact.module.css'
 
-import ExtLink from './ext-link'
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
 import LinkedIn from '../components/svgs/linkedin'
@@ -23,20 +26,13 @@ const contacts = [
   },
 ]
 
-export default function Footer() {
+export default function About() {
   return (
     <>
-      <footer>
-        <div className={contactStyles.links}>
-          {contacts.map(({ Comp, link, alt }) => {
-            return (
-              <ExtLink key={link} href={link} aria-label={alt}>
-                <Comp height={32} />
-              </ExtLink>
-            )
-          })}
-        </div>
-      </footer>
+      <Header titlePre="About" />
+      <div className={sharedStyles.layout}>
+        <h1 style={{ marginTop: 0 }}>About Me</h1>
+      </div>
     </>
   )
 }
