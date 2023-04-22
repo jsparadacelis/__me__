@@ -7,7 +7,7 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <img src="/me.jpeg" height="85" width="200" alt="me" />
+        <img src="/me.jpg" height="85" width="200" alt="me" />
         <h1>Sebastian Parada</h1>
         <h2>Software Engineer | Python Developer</h2>
 
