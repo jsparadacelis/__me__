@@ -3,7 +3,7 @@
 }
 
 .blogIndex h1 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .previewAlertContainer {
@@ -48,6 +48,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .draftBadge {
   border-radius: 16px;
   background-color: black;

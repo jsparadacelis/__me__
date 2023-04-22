@@ -51,17 +51,9 @@ const Index = ({ posts = [], preview }) => {
   return (
     <>
       <Header titlePre="Blog" />
-      {preview && (
-        <div className={blogStyles.previewAlertContainer}>
-          <div className={blogStyles.previewAlert}>
-            <b>Note:</b>
-            {` `}Viewing in preview mode{' '}
-            <Link href={`/api/clear-preview`}>
-              <button className={blogStyles.escapePreview}>Exit Preview</button>
-            </Link>
-          </div>
-        </div>
-      )}
+      <div className={sharedStyles.layout}>
+        <h1 style={{ marginTop: 0 }}>Some thoughts</h1>
+      </div>
       <div className={`${sharedStyles.layout} ${blogStyles.blogIndex}`}>
         {posts.length === 0 && <p className={blogStyles.noPosts}></p>}
         {posts.map((post) => {

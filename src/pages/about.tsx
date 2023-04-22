@@ -67,7 +67,7 @@ export default function About() {
     <>
       <Header titlePre="About" />
       <div className={sharedStyles.layout}>
-        <h1 style={{ marginTop: 0 }}>About Me</h1>
+        <h1 style={{ marginTop: 0 }}>Work experience</h1>
       </div>
 
       <div className={`${sharedStyles.layout} ${aboutStyles.blogIndex}`}>
