@@ -7,9 +7,7 @@ export default async function getNotionUsers(ids: string[]) {
       table: 'notion_user',
     })),
   })
-
   const users: any = {}
-
   for (const result of results) {
     const { value } = result || { value: {} }
     const { given_name, family_name } = value
@@ -20,6 +18,5 @@ export default async function getNotionUsers(ids: string[]) {
     }
     users[value.id] = { full_name }
   }
-
   return { users }
 }
