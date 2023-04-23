@@ -82,11 +82,11 @@ export default function About() {
                   {/* <Link href="/blog/[slug]" as={getBlogLink(post.Slug)}>
                     <a>{post.Page}</a>
                   </Link> */}
-                  <span>{job.company}</span>
+                  <span>{job.role}</span>
                 </span>
               </h3>
               <div className={aboutStyles.jobDescription}>
-                <span>{job.role}</span>
+                <span>{job.company}</span>
                 <p>
                   🗓️ {job.date.start} - {job.date.end}
                 </p>
