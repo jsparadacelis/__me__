@@ -76,7 +76,7 @@
   font-weight: 500;
 }
 .postPreview {
-  max-width: 800px;
+  max-width: 60em;
   margin: 10px auto;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.8); */
 }
