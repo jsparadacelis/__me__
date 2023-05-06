@@ -341,12 +341,19 @@ code {
 
 @media (max-width: 600px) {
   .explanation {
-    padding: 0 1rem 4rem;
+    padding: 0 2rem 3rem;
   }
 
   h2 {
     font-size: 0.95rem;
     letter-spacing: 0;
+  }
+
+  h1 {
+    margin: var(--gap-double) 0 calc(0.5 * var(--gap)) 0;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
   }
 }
 
