@@ -4,6 +4,7 @@ import ExtLink from './ext-link'
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
 import LinkedIn from '../components/svgs/linkedin'
+import Leetcode from '../components/svgs/leetcode'
 
 const contacts = [
   {
@@ -20,6 +21,11 @@ const contacts = [
     Comp: LinkedIn,
     alt: 'linkedin icon',
     link: 'https://www.linkedin.com/in/jsparadacelis/',
+  },
+  {
+    Comp: Leetcode,
+    alt: 'leetcode icon',
+    link: 'https://leetcode.com/jsparadacelis/',
   },
 ]
 
