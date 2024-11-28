@@ -138,6 +138,10 @@
   margin-top: 0;
 }
 
+.post p {
+  text-align: justify;
+}
+
 .bookmark {
   width: 100%;
   max-width: 100%;
