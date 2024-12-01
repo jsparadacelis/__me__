@@ -72,27 +72,42 @@ const jobs = [
     description:
       'SmartHop uses artificial intelligence to deliver smart load recommendations, full-service back-office support, performance tracking, and digital bookings at guaranteed above-market rates for small trucking companies.',
     bulletPoints: [
-      'Created a mono repo to handle CI/CD processes for 20 applications among internal libraries, microservices, and monitors.',
-      'Improved latency of APIs by implementing caching processes to handle ~200K req/hr approx reducing computing costs.',
-      'Implemented a data pipeline to detect and update cached data by applying a message queuing design. Designed ETL processes enabling analysis and building of ML models to predict the US cargo market behavior.',
+      "Created a mono repo to handle CI/CD processes for 20 applications among internal libraries, microservices, and monitors.",
+      "Improved latency of APIs by implementing caching processes to handle ~200K req/hr approx reducing computing costs.",
+      "Implemented a data pipeline to detect and update cached data by applying a message queuing design. Designed ETL processes enabling analysis and building of ML models to predict the US cargo market behavior.",
     ],
     tools:
-      'GCP Cloud Run · Cloud Functions · PubSub · FastAPI · Airflow · Snowflake · Redis · Terraform · Docker',
+      "GCP Cloud Run · Cloud Functions · PubSub · FastAPI · Airflow · Snowflake · Redis · Terraform · Docker",
   },
   {
     company: '🏦 Bold',
     date: {
-      start: 'February 2023',
-      end: '',
+      start: "February 2023",
+      end: "September 2024",
     },
-    role: 'Software Engineer',
+    role: "Software Engineer",
     description:
       "Bold creates financial tools that allow users to increase sales by receiving card payments. I'm part of the credit team as a backend developer",
     bulletPoints: [
-      'Implemented the down payment and the credit amount update features enabling users to alleviate their debts.',
+      "Designed and implemented the migration feature to migrate at least 4k clients among product versions through mobile app working aside frontend and mobile app teams.",
+      "Refactored existing credits data warehouse into a lakehouse schema using dbt as a tool by designing and implementing more than 20 models applying the medallion model to improve readability to operative teams.",
+      "Implemented the down payment and the credit amount update features enabling users to alleviate their debts.",
     ],
-    tools: 'AWS Lambdas · DynamoDB',
+    tools: "AWS Lambdas · DynamoDB",
   },
+  {
+    company: "🛒 Mercadona Tech (Valencia, Spain)",
+    date: {
+      start: "October 2024",
+      end: "",
+    },
+    role: "Software Engineer",
+    description:
+      "",
+    bulletPoints: [
+    ],
+    tools: "Python · Django",
+  }
 ]
 
 export default function About() {
